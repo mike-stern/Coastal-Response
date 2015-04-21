@@ -3,7 +3,7 @@ Coastal Response Web Map
 
 Included are the html, js, and css files used to create the Coastal Response Web Map/ Data visualization utility.
 
-NOT included are the model predictions and dynamic coastal response raster layers.
+NOT included (yet) are the model predictions and dynamic coastal response raster layers.
 
 Required: WMS hosting (ie GeoServer) and Openlayers v2 js (included in html)
 
