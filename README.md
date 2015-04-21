@@ -1,4 +1,7 @@
 # Coastal-Response
+
+![Screenshot](/screenshot.JPG?raw=true "Coastal Response")
+
 Coastal Response Web Map
 
 Included are the html, js, and css files used to create the Coastal Response Web Map/ Data visualization utility.
@@ -9,4 +12,4 @@ Required: WMS hosting (ie GeoServer) and Openlayers v2 js (included in html)
 
 Please visit-  http://woodshole.er.usgs.gov/project-pages/coastal_response/index.html  -for model predictions.
 
-![Screenshot](/screenshot.JPG?raw=true "Coastal Response")
+
