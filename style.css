@@ -1,0 +1,215 @@
+/* ----->>> General settings <<<----- */
+body {
+    font-family: Arial;
+    font-size: small;
+}
+select{margin: 10px;}
+
+a{
+    text-decoration: none;
+    color: #3399FF;
+    font-size: 11px;
+}
+
+a:hover{text-decoration: underline;}
+a:visited{color: '#' ;}
+
+/* ------>>> Map <<<-----  */
+#map, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#informationWindow{
+    text-align: left;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    z-index: 9999;
+    background-color: white;
+    width: 500px;
+    height:600px;
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid gray;
+    padding: 15px;
+    /*overflow: scroll;
+    overflow-x: hidden;*/
+    visibility: hidden;
+}
+
+#infoButton{
+    background-image: url('info.png');
+    background-size: cover;
+    background-color: white;
+    height:20px;
+    width:20px;
+    color:#3399FF;
+    margin-top:4px;
+    float:left;
+    /*border:1px solid white;*/
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+#infoButton:hover{background-color: #3399FF;}
+
+table.info ,th.info,tr.info,td.info {
+    padding: 3px;
+    margin: 1px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table.info{background-color: white;}
+
+/* ------>>> Right Wrapper <<<----- */
+
+#Wrapper{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 400px;
+    /*border: solid thin gray;*/
+    background:white;
+    z-index: 9998;
+    box-shadow: -8px 0px 5px 0px rgba(0,0,0,0.75);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#header {
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 0px;
+    height:10%;
+    width: 100%;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#usgs {
+    margin-left: 15px;
+    background-image: url('usgs.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+}
+ 
+.sectionLabels:hover{text-decoration: underline;}
+
+.sectionLabels{color:white;font-size: 16px;padding-top:5px;}
+
+.sectionHeader{
+    width:100%;
+    height:30px;
+    background-color:#3399FF;
+    box-shadow: -1px 1px 1px;
+    margin-bottom: 5px;
+}
+
+#gradient {
+    background: linear-gradient(to right, white, black);
+    font-size: 14px;
+    width: 200px;
+    height: 10px;
+    margin-left:110px;
+    padding: 0px;
+    padding-top: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#gradText {
+    font-size: 14px;
+    width: 260px;
+    height: 25px;
+    margin-left:80px;
+    padding: 0px;
+    padding-top: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* ----->>> Decade Slider <<<----- */
+
+#sliderDiv{
+    position: absolute;
+    z-index: 9999;
+    bottom: 5px;
+    right: 50%;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+}
+
+#play:hover{border:1px solid lightblue;}
+#stop:hover{border:1px solid lightblue;}
+
+#sp1, #sp2, #sp3, #sp4 {
+    margin: 1px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#slider {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #333;
+    background-color: #3399FF;
+    height: 10px;
+    vertical-align: middle;
+}
+#slider::-moz-range-track {
+    -moz-appearance: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #333;
+    background-color: #999;
+    height: 10px;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    border-radius: 20px;
+    background-color: #3399FF;
+    box-shadow:inset 0 0 10px rgba(000,000,000,0.5);
+    /*border: 1px solid #3399FF;*/
+    height: 20px;
+    width: 20px;
+}
+#slider::-moz-range-thumb {
+    -moz-appearance: none;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow:inset 0 0 10px rgba(000,000,000,0.5);
+    border: 1px solid #999;
+    height: 20px;
+    width: 20px;
+}
+
+/* ----->>>  Base Slider <<<----- */
+
+#baseLayerWrapper{
+   position: absolute;
+   bottom: 3px;
+   right: 415px;
+   z-index: 9999;
+   padding:10px;
+   color: white;
+   vertical-align: bottom;
+   background: rgba(0,0,0,0.5);
+   border-radius: 5px;
+}
+
+#baseSlider{
+  background-color: white;
+  vertical-align: top;
+  float: right;
+  margin-left: 15px;
+}
