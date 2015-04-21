@@ -9,6 +9,4 @@ Required: WMS hosting (ie GeoServer) and Openlayers v2 js (included in html)
 
 Please visit-  http://woodshole.er.usgs.gov/project-pages/coastal_response/index.html  -for model predictions.
 
-For dynamic coastal response layers please email sstippa@usgs.gov
-
 ![Screenshot](/screenshot.JPG?raw=true "Coastal Response")
