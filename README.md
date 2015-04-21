@@ -11,4 +11,4 @@ Please visit-  http://woodshole.er.usgs.gov/project-pages/coastal_response/index
 
 For dynamic coastal response layers please email sstippa@usgs.gov
 
-![screenshot](./screenshot.jpg)
+![Screenshot](/screenshot.JPG?raw=true "Coastal Response")
